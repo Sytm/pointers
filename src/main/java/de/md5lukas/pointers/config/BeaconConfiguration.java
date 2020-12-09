@@ -21,12 +21,14 @@ public final class BeaconConfiguration {
      *
      * @return The squared minimum distance
      */
+    @SuppressWarnings("JavaDoc")
     private long minDistance = 30;
     /**
      * Default value is the view distance
      *
      * @return The squared maximum distance
      */
+    @SuppressWarnings("JavaDoc")
     private long maxDistance = Bukkit.getViewDistance() * 16;
     @NotNull
     @NonNull

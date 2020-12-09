@@ -23,12 +23,14 @@ public final class BlinkingBlockConfiguration {
     /**
      * @return The squared minimum distance
      */
+    @SuppressWarnings("JavaDoc")
     private long minDistance = 5;
     /**
      * The value should not overlap with the distance range of the beacon
      *
      * @return The squared maximum distance
      */
+    @SuppressWarnings("JavaDoc")
     private long maxDistance = 30;
     @NotNull
     private List<@NotNull BlockData> blockDataSequence = Collections.singletonList(Material.BEACON.createBlockData());
